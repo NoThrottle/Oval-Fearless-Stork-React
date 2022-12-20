@@ -165,6 +165,7 @@ const Header1 = (props) => {
           .header1-root-class-name {
             align-self: center;
           }
+
           @media (max-width: 767px) {
             .header1-header {
               padding-left: var(--dl-space-space-twounits);

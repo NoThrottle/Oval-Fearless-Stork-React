@@ -258,6 +258,7 @@ const Footer = (props) => {
             width: 100%;
             max-width: 100%;
           }
+
           @media (max-width: 1200px) {
             .footer-root-class-name1 {
               max-width: 100%;
@@ -361,7 +362,7 @@ Footer.defaultProps = {
   text7: 'Careers',
   image_src1: 'https://i.imgur.com/jlw8qax.png',
   text3: 'Tutorials',
-  text11: 'Gmail: ntyt.bu',
+  text11: 'inquire@nothrottle.com',
 }
 
 Footer.propTypes = {

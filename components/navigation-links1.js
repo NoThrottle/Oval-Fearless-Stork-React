@@ -15,8 +15,10 @@ const NavigationLinks1 = (props) => {
             <a className="navigation-links1-link1">{props.text11}</a>
           </Link>
           <span className="navigation-links1-text">{props.text21}</span>
-          <span className="navigation-links1-text1">{props.text31}</span>
-          <span className="navigation-links1-text2">{props.text41}</span>
+          <Link href="/contact">
+            <a className="navigation-links1-link2">{props.text31}</a>
+          </Link>
+          <span className="navigation-links1-text1">{props.text41}</span>
         </nav>
       </nav>
       <style jsx>
@@ -43,10 +45,11 @@ const NavigationLinks1 = (props) => {
           .navigation-links1-text {
             margin-left: var(--dl-space-space-twounits);
           }
-          .navigation-links1-text1 {
+          .navigation-links1-link2 {
             margin-left: var(--dl-space-space-twounits);
+            text-decoration: none;
           }
-          .navigation-links1-text2 {
+          .navigation-links1-text1 {
             margin-left: var(--dl-space-space-twounits);
           }
 
@@ -70,11 +73,11 @@ const NavigationLinks1 = (props) => {
               margin-left: 0;
               margin-bottom: var(--dl-space-space-unit);
             }
-            .navigation-links1-text1 {
+            .navigation-links1-link2 {
               margin-left: 0;
               margin-bottom: var(--dl-space-space-unit);
             }
-            .navigation-links1-text2 {
+            .navigation-links1-text1 {
               margin-left: 0;
               margin-bottom: var(--dl-space-space-unit);
             }
