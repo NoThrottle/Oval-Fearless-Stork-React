@@ -259,6 +259,11 @@ const Footer = (props) => {
             max-width: 100%;
           }
 
+          @media (max-width: 1600px) {
+            .footer-root-class-name3 {
+              margin-top: var(--dl-space-space-sixunits);
+            }
+          }
           @media (max-width: 1200px) {
             .footer-root-class-name1 {
               max-width: 100%;

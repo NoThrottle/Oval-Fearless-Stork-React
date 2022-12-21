@@ -15,8 +15,8 @@ const Contact = (props) => {
         <Header1 rootClassName="header1-root-class-name1"></Header1>
         <div className="contact-container01">
           <img
-            src="https://i.imgur.com/SBynKgY.png"
             alt="image"
+            src="https://i.imgur.com/2X8R0nP.jpg"
             loading="eager"
             className="contact-image"
           />
