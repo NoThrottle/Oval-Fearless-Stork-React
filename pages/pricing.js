@@ -218,6 +218,7 @@ const Pricing = (props) => {
             display: flex;
             background-size: cover;
             justify-content: center;
+            background-color: #d9d9d9;
             background-position: center;
           }
           .pricing-container01 {
@@ -233,7 +234,7 @@ const Pricing = (props) => {
             width: 100%;
             display: flex;
             padding: var(--dl-space-space-threeunits);
-            max-width: 450px;
+            max-width: 400px;
             min-height: 450px;
             transition: 0.3s;
             align-items: flex-start;
@@ -301,7 +302,7 @@ const Pricing = (props) => {
             width: 100%;
             display: flex;
             padding: var(--dl-space-space-twounits);
-            max-width: 450px;
+            max-width: 400px;
             min-height: 450px;
             transition: 0.3s;
             align-items: flex-start;
@@ -378,7 +379,7 @@ const Pricing = (props) => {
             width: 100%;
             display: flex;
             padding: var(--dl-space-space-threeunits);
-            max-width: 450px;
+            max-width: 400px;
             min-height: 450px;
             transition: 0.3s;
             align-items: flex-start;
@@ -455,7 +456,7 @@ const Pricing = (props) => {
             width: 100%;
             display: flex;
             padding: var(--dl-space-space-threeunits);
-            max-width: var(--dl-size-size-maxwidth);
+            max-width: 1106px;
             align-items: center;
             flex-direction: column;
           }
@@ -618,9 +619,6 @@ const Pricing = (props) => {
             transform: scale(1.02);
           }
           @media (max-width: 1600px) {
-            .pricing-pricing {
-              background-color: #d9d9d9;
-            }
             .pricing-pricing-card {
               max-width: 400px;
               border-radius: var(--dl-radius-radius-radius8);
@@ -632,9 +630,6 @@ const Pricing = (props) => {
             .pricing-pricing-card2 {
               max-width: 400px;
               border-radius: var(--dl-radius-radius-radius8);
-            }
-            .pricing-pricing1 {
-              max-width: 1106px;
             }
           }
           @media (max-width: 991px) {

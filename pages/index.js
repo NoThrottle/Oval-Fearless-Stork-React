@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 import Head from 'next/head'
 
 import Header1 from '../components/header1'
@@ -36,12 +37,14 @@ const Home = (props) => {
                   <br></br>
                 </span>
               </button>
-              <button className="home-button1 button">
-                <span>
-                  <span>Contact</span>
-                  <br></br>
-                </span>
-              </button>
+              <Link href="/contact">
+                <a className="home-link button">
+                  <span>
+                    <span>Contact</span>
+                    <br></br>
+                  </span>
+                </a>
+              </Link>
             </div>
             <span className="home-text10">
               NoThrottle aims to provide high quality, cost effective, and cost
@@ -197,7 +200,7 @@ const Home = (props) => {
               />
             </span>
           </h2>
-          <button className="home-button2 button">Learn More</button>
+          <button className="home-button1 button">Learn More</button>
         </div>
         <Footer rootClassName="footer-root-class-name"></Footer>
       </main>
@@ -267,7 +270,7 @@ const Home = (props) => {
           .home-button:hover {
             transform: scale(1.02);
           }
-          .home-button1 {
+          .home-link {
             transition: 0.3s;
             margin-left: var(--dl-space-space-unit);
             padding-top: var(--dl-space-space-unit);
@@ -275,8 +278,9 @@ const Home = (props) => {
             padding-left: var(--dl-space-space-twounits);
             padding-right: var(--dl-space-space-twounits);
             padding-bottom: var(--dl-space-space-unit);
+            text-decoration: none;
           }
-          .home-button1:hover {
+          .home-link:hover {
             transform: scale(1.02);
           }
           .home-text10 {
@@ -545,14 +549,14 @@ const Home = (props) => {
           .home-text39 {
             font-weight: 600;
           }
-          .home-button2 {
+          .home-button1 {
             transition: 0.3s;
             padding-top: var(--dl-space-space-halfunit);
             padding-left: var(--dl-space-space-threeunits);
             padding-right: var(--dl-space-space-threeunits);
             padding-bottom: var(--dl-space-space-halfunit);
           }
-          .home-button2:hover {
+          .home-button1:hover {
             color: var(--dl-color-gray-white);
             background-color: var(--dl-color-gray-black);
           }
@@ -695,7 +699,7 @@ const Home = (props) => {
               flex-direction: row;
               justify-content: center;
             }
-            .home-button1 {
+            .home-link {
               align-self: center;
               margin-left: var(--dl-space-space-unit);
             }
