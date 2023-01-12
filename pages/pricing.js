@@ -16,188 +16,145 @@ const Pricing = (props) => {
         <div className="pricing-pricing">
           <div className="pricing-container01">
             <div className="pricing-pricing-card">
-              <span className="pricing-text">Free</span>
+              <span className="pricing-text">Video editing</span>
               <div className="pricing-container02">
                 <span className="pricing-text01">
-                  <span>$</span>
-                  <span></span>
+                  <span>
+                    Starts at
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: ' ',
+                      }}
+                    />
+                  </span>
+                  <span className="pricing-text03">$</span>
                 </span>
-                <span className="pricing-text04">0</span>
+                <span className="pricing-text04">1</span>
+                <span className="pricing-text05">/ minute</span>
               </div>
+              <span className="pricing-text06">
+                Plus $3.5 base fee per video. Does not include motion graphics,
+                sound design, stock footage, and visual effects.
+              </span>
               <div className="pricing-container03">
-                <span className="pricing-text05">
-                  <span>✔ Full access to design tool</span>
-                </span>
-                <span className="pricing-text07">
-                  <span>✔ Publish with Teleport</span>
-                </span>
+                <span className="pricing-text07">✔ Up to 3 Free Revisions</span>
+                <span className="pricing-text08">✔ Color Graded*</span>
                 <span className="pricing-text09">
-                  <span>✔ Subdomain publish</span>
+                  ✔ No Branding or Watermarks when completed
                 </span>
-                <span className="pricing-text11">
-                  <span>✔ Download code</span>
+                <span className="pricing-text10">
+                  ✔ No Project Limitations*
                 </span>
               </div>
-              <button className="pricing-button button">Learn More</button>
+              <button className="pricing-button button">Contact Us</button>
             </div>
             <div className="pricing-pricing-card1">
-              <span className="pricing-text13">basic</span>
+              <span className="pricing-text11">graphic design</span>
               <div className="pricing-container04">
-                <span className="pricing-text14">
-                  <span>$</span>
-                  <span></span>
+                <span className="pricing-text12">
+                  <span>
+                    Starts at
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: ' ',
+                      }}
+                    />
+                  </span>
+                  <span className="pricing-text14">$</span>
                 </span>
-                <span className="pricing-text17">9</span>
-                <span className="pricing-text18">
-                  <span>/ monthly</span>
-                </span>
+                <span className="pricing-text15">2</span>
+                <span className="pricing-text16">/ size</span>
               </div>
-              <span className="pricing-text20">
-                <span>Billed annualy or $12 month-to-month.</span>
-                <span></span>
+              <span className="pricing-text17">
+                Plus $3 base fee per design. Does not include stock images.
               </span>
               <div className="pricing-container05">
-                <span className="pricing-text23">
-                  <span>✔ All features of FREE plan</span>
+                <span className="pricing-text18">
+                  ✔ Up to 30,000 by 30,000 pixels
                 </span>
-                <span className="pricing-text25">
-                  <span>✔ Connect to custom domains</span>
+                <span className="pricing-text19">
+                  ✔ Up to 3 Free Design Revisions*
                 </span>
-                <span className="pricing-text27">
-                  <span>✔ Private projects</span>
-                </span>
-                <span className="pricing-text29">
-                  <span>✔ No project limitations</span>
-                </span>
-                <span className="pricing-text31">
-                  <span>✔ Unlimited collabotators</span>
+                <span className="pricing-text20">✔ SVG whenever possible</span>
+                <span className="pricing-text21">✔ Always lossless or PNG</span>
+                <span className="pricing-text22">
+                  ✔ Unlimited collabotators
                 </span>
               </div>
-              <button className="pricing-button1 button">Learn More</button>
+              <button className="pricing-button1 button">Contact Us</button>
             </div>
             <div className="pricing-pricing-card2">
-              <span className="pricing-text33">Pro</span>
+              <span className="pricing-text23">complex video</span>
               <div className="pricing-container06">
-                <span className="pricing-text34">
-                  <span>$</span>
-                  <span></span>
+                <span className="pricing-text24">
+                  <span>
+                    Starts at
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: ' ',
+                      }}
+                    />
+                  </span>
+                  <span className="pricing-text26">$</span>
                 </span>
-                <span className="pricing-text37">29</span>
-                <span className="pricing-text38">
-                  <span>/ monthly</span>
-                </span>
+                <span className="pricing-text27">2.5</span>
+                <span className="pricing-text28">/ minute</span>
               </div>
-              <span className="pricing-text40">
-                <span>Billed annualy or $32 month-to-month.</span>
-                <span></span>
+              <span className="pricing-text29">
+                Plus $12 base fee per project. Does not come with stock content,
+                3D graphics, and visual effects.
               </span>
               <div className="pricing-container07">
-                <span className="pricing-text43">
-                  <span>✔ All features of BASIC plan</span>
+                <span className="pricing-text30">
+                  ✔ Includes Motion Graphics when Necessary
                 </span>
-                <span className="pricing-text45">
-                  <span>✔ Priority support</span>
+                <span className="pricing-text31">
+                  ✔ Up to 3 Free Revisions*
                 </span>
-                <span className="pricing-text47">
-                  <span>✔ Premium analytics</span>
+                <span className="pricing-text32">
+                  ✔ No Branding or Watermarks when completed
                 </span>
-                <span className="pricing-text49">
-                  <span>✔ Version history</span>
+                <span className="pricing-text33">
+                  ✔ Access to all Project Files for a fee
                 </span>
               </div>
-              <button className="pricing-button2 button">Learn More</button>
+              <button className="pricing-button2 button">Contact Us</button>
             </div>
           </div>
         </div>
         <div className="pricing-pricing1">
           <div className="pricing-card">
+            <span className="pricing-text34">ILLUSTRATION</span>
             <div className="pricing-container08">
-              <span className="pricing-text51">Free</span>
-              <span className="pricing-text52">$0</span>
-              <span className="pricing-text53">Per month</span>
+              <span className="pricing-text35">starts at</span>
+              <span className="pricing-text36">$6</span>
+              <span className="pricing-text37">Per drawing</span>
             </div>
-            <span className="pricing-text54">
-              <span className="pricing-text55">
-                <span>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-                  lorem lorem, malesuada in metus vitae, scelerisque accumsan
-                  ipsum.
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <span>
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-              </span>
-              <span></span>
-            </span>
             <button className="pricing-button3 button">Learn More</button>
           </div>
           <div className="pricing-card1">
+            <span className="pricing-text38">MUSIC PRODUCTION</span>
             <div className="pricing-container09">
-              <span className="pricing-text59">basic</span>
-              <span className="pricing-text60">$9</span>
-              <span className="pricing-text61">Per month</span>
+              <span className="pricing-text39">starts at</span>
+              <span className="pricing-text40">$15</span>
+              <span className="pricing-text41">Per project</span>
             </div>
-            <span className="pricing-text62">
-              <span className="pricing-text63">
-                <span>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-                  lorem lorem, malesuada in metus vitae, scelerisque accumsan
-                  ipsum.
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <span>
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-              </span>
-              <span></span>
-            </span>
             <button className="pricing-button4 button">Learn More</button>
           </div>
           <div className="pricing-card2">
-            <div className="pricing-container10">
-              <span className="pricing-text67">Pro</span>
-              <span className="pricing-text68">$29</span>
-              <span className="pricing-text69">Per month</span>
-            </div>
-            <span className="pricing-text70">
-              <span className="pricing-text71">
-                <span>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-                  lorem lorem, malesuada in metus vitae, scelerisque accumsan
-                  ipsum.
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <span>
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-              </span>
-              <span></span>
+            <span className="pricing-text42">
+              SOFTWARE
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: ' ',
+                }}
+              />
             </span>
+            <div className="pricing-container10">
+              <span className="pricing-text43">starts at</span>
+              <span className="pricing-text44">$45</span>
+              <span className="pricing-text45">Per project</span>
+            </div>
             <button className="pricing-button5 button">Learn More</button>
           </div>
         </div>
@@ -267,9 +224,23 @@ const Pricing = (props) => {
             margin-top: var(--dl-space-space-twounits);
             font-weight: 300;
           }
+          .pricing-text03 {
+            font-weight: 700;
+          }
           .pricing-text04 {
             font-size: 4rem;
             font-weight: 700;
+          }
+          .pricing-text05 {
+            font-size: 1.15rem;
+            font-style: normal;
+            margin-top: var(--dl-space-space-twounits);
+            font-weight: 300;
+          }
+          .pricing-text06 {
+            color: var(--dl-color-gray-500);
+            font-size: 0.75rem;
+            margin-bottom: var(--dl-space-space-twounits);
           }
           .pricing-container03 {
             display: flex;
@@ -277,16 +248,16 @@ const Pricing = (props) => {
             margin-bottom: var(--dl-space-space-threeunits);
             flex-direction: column;
           }
-          .pricing-text05 {
+          .pricing-text07 {
             margin-bottom: var(--dl-space-space-unit);
           }
-          .pricing-text07 {
+          .pricing-text08 {
             margin-bottom: var(--dl-space-space-unit);
           }
           .pricing-text09 {
             margin-bottom: var(--dl-space-space-unit);
           }
-          .pricing-text11 {
+          .pricing-text10 {
             margin-bottom: var(--dl-space-space-unit);
           }
           .pricing-button {
@@ -313,7 +284,7 @@ const Pricing = (props) => {
           .pricing-pricing-card1:hover {
             transform: scale(1.02);
           }
-          .pricing-text13 {
+          .pricing-text11 {
             font-size: 1.5rem;
             font-weight: 600;
             margin-bottom: var(--dl-space-space-twounits);
@@ -325,22 +296,25 @@ const Pricing = (props) => {
             margin-bottom: var(--dl-space-space-twounits);
             flex-direction: row;
           }
-          .pricing-text14 {
+          .pricing-text12 {
             font-size: 1.15rem;
             margin-top: var(--dl-space-space-twounits);
             font-weight: 300;
           }
-          .pricing-text17 {
+          .pricing-text14 {
+            font-weight: 700;
+          }
+          .pricing-text15 {
             font-size: 4rem;
             font-weight: 700;
           }
-          .pricing-text18 {
+          .pricing-text16 {
             font-size: 1.15rem;
             font-style: normal;
             margin-top: var(--dl-space-space-twounits);
             font-weight: 300;
           }
-          .pricing-text20 {
+          .pricing-text17 {
             color: var(--dl-color-gray-500);
             font-size: 0.75rem;
             margin-bottom: var(--dl-space-space-twounits);
@@ -351,19 +325,19 @@ const Pricing = (props) => {
             margin-bottom: var(--dl-space-space-threeunits);
             flex-direction: column;
           }
-          .pricing-text23 {
+          .pricing-text18 {
             margin-bottom: var(--dl-space-space-unit);
           }
-          .pricing-text25 {
+          .pricing-text19 {
             margin-bottom: var(--dl-space-space-unit);
           }
-          .pricing-text27 {
+          .pricing-text20 {
             margin-bottom: var(--dl-space-space-unit);
           }
-          .pricing-text29 {
+          .pricing-text21 {
             margin-bottom: var(--dl-space-space-unit);
           }
-          .pricing-text31 {
+          .pricing-text22 {
             margin-bottom: var(--dl-space-space-unit);
           }
           .pricing-button1 {
@@ -393,7 +367,7 @@ const Pricing = (props) => {
           .pricing-pricing-card2:hover {
             transform: scale(1.02);
           }
-          .pricing-text33 {
+          .pricing-text23 {
             font-size: 1.5rem;
             font-weight: 600;
             margin-bottom: var(--dl-space-space-twounits);
@@ -405,22 +379,25 @@ const Pricing = (props) => {
             margin-bottom: var(--dl-space-space-twounits);
             flex-direction: row;
           }
-          .pricing-text34 {
+          .pricing-text24 {
             font-size: 1.15rem;
             margin-top: var(--dl-space-space-twounits);
             font-weight: 300;
           }
-          .pricing-text37 {
+          .pricing-text26 {
+            font-weight: 700;
+          }
+          .pricing-text27 {
             font-size: 4rem;
             font-weight: 700;
           }
-          .pricing-text38 {
+          .pricing-text28 {
             font-size: 1.15rem;
             font-style: normal;
             margin-top: var(--dl-space-space-twounits);
             font-weight: 300;
           }
-          .pricing-text40 {
+          .pricing-text29 {
             color: var(--dl-color-gray-500);
             font-size: 0.75rem;
             margin-bottom: var(--dl-space-space-twounits);
@@ -431,16 +408,16 @@ const Pricing = (props) => {
             margin-bottom: var(--dl-space-space-unit);
             flex-direction: column;
           }
-          .pricing-text43 {
+          .pricing-text30 {
             margin-bottom: var(--dl-space-space-unit);
           }
-          .pricing-text45 {
+          .pricing-text31 {
             margin-bottom: var(--dl-space-space-unit);
           }
-          .pricing-text47 {
+          .pricing-text32 {
             margin-bottom: var(--dl-space-space-unit);
           }
-          .pricing-text49 {
+          .pricing-text33 {
             margin-bottom: var(--dl-space-space-unit);
           }
           .pricing-button2 {
@@ -468,36 +445,35 @@ const Pricing = (props) => {
             padding-bottom: var(--dl-space-space-threeunits);
             background-color: var(--dl-color-gray-white);
           }
+          .pricing-text34 {
+            width: var(--dl-size-size-xlarge);
+            font-size: 1.5rem;
+            font-style: normal;
+            font-weight: 300;
+          }
           .pricing-container08 {
+            margin: var(--dl-space-space-unit);
             display: flex;
-            min-width: 150px;
+            min-width: auto;
             align-items: center;
             flex-direction: column;
           }
-          .pricing-text51 {
+          .pricing-text35 {
             font-size: 1.5rem;
             font-style: normal;
             font-weight: 300;
             text-transform: uppercase;
           }
-          .pricing-text52 {
+          .pricing-text36 {
             margin: var(--dl-space-space-halfunit);
             font-size: 4rem;
             font-style: normal;
             font-weight: 500;
           }
-          .pricing-text53 {
+          .pricing-text37 {
             font-size: 1.5rem;
             font-style: normal;
             font-weight: 300;
-          }
-          .pricing-text54 {
-            margin-left: var(--dl-space-space-threeunits);
-            margin-right: var(--dl-space-space-sixunits);
-          }
-          .pricing-text55 {
-            font-style: normal;
-            font-weight: 400;
           }
           .pricing-button3 {
             color: var(--dl-color-gray-white);
@@ -521,36 +497,35 @@ const Pricing = (props) => {
             padding-bottom: var(--dl-space-space-threeunits);
             background-color: var(--dl-color-gray-white);
           }
+          .pricing-text38 {
+            width: var(--dl-size-size-xlarge);
+            font-size: 1.5rem;
+            font-style: normal;
+            font-weight: 300;
+          }
           .pricing-container09 {
+            margin: var(--dl-space-space-unit);
             display: flex;
             min-width: 150px;
             align-items: center;
             flex-direction: column;
           }
-          .pricing-text59 {
+          .pricing-text39 {
             font-size: 1.5rem;
             font-style: normal;
             font-weight: 300;
             text-transform: uppercase;
           }
-          .pricing-text60 {
+          .pricing-text40 {
             margin: var(--dl-space-space-halfunit);
             font-size: 4rem;
             font-style: normal;
             font-weight: 500;
           }
-          .pricing-text61 {
+          .pricing-text41 {
             font-size: 1.5rem;
             font-style: normal;
             font-weight: 300;
-          }
-          .pricing-text62 {
-            margin-left: var(--dl-space-space-threeunits);
-            margin-right: var(--dl-space-space-sixunits);
-          }
-          .pricing-text63 {
-            font-style: normal;
-            font-weight: 400;
           }
           .pricing-button4 {
             color: var(--dl-color-gray-white);
@@ -574,36 +549,35 @@ const Pricing = (props) => {
             padding-bottom: var(--dl-space-space-threeunits);
             background-color: var(--dl-color-gray-white);
           }
+          .pricing-text42 {
+            width: var(--dl-size-size-xlarge);
+            font-size: 1.5rem;
+            font-style: normal;
+            font-weight: 300;
+          }
           .pricing-container10 {
+            margin: var(--dl-space-space-unit);
             display: flex;
             min-width: 150px;
             align-items: center;
             flex-direction: column;
           }
-          .pricing-text67 {
+          .pricing-text43 {
             font-size: 1.5rem;
             font-style: normal;
             font-weight: 300;
             text-transform: uppercase;
           }
-          .pricing-text68 {
+          .pricing-text44 {
             margin: var(--dl-space-space-halfunit);
             font-size: 4rem;
             font-style: normal;
             font-weight: 500;
           }
-          .pricing-text69 {
+          .pricing-text45 {
             font-size: 1.5rem;
             font-style: normal;
             font-weight: 300;
-          }
-          .pricing-text70 {
-            margin-left: var(--dl-space-space-threeunits);
-            margin-right: var(--dl-space-space-sixunits);
-          }
-          .pricing-text71 {
-            font-style: normal;
-            font-weight: 400;
           }
           .pricing-button5 {
             color: var(--dl-color-gray-white);
@@ -623,72 +597,153 @@ const Pricing = (props) => {
               max-width: 400px;
               border-radius: var(--dl-radius-radius-radius8);
             }
+            .pricing-text {
+              font-size: 1.5rem;
+              font-weight: 600;
+              text-transform: uppercase;
+            }
+            .pricing-text01 {
+              font-size: 1.15rem;
+            }
+            .pricing-text03 {
+              font-weight: 700;
+            }
+            .pricing-text04 {
+              font-size: 4rem;
+              font-weight: 700;
+            }
+            .pricing-text05 {
+              font-size: 1.15rem;
+            }
+            .pricing-text06 {
+              color: var(--dl-color-gray-500);
+              font-size: 0.75rem;
+            }
+            .pricing-button {
+              color: var(--dl-color-gray-white);
+              background-color: var(--dl-color-gray-black);
+            }
             .pricing-pricing-card1 {
               max-width: 400px;
               border-radius: var(--dl-radius-radius-radius8);
             }
+            .pricing-text11 {
+              font-size: 1.5rem;
+              font-weight: 600;
+              text-transform: uppercase;
+            }
+            .pricing-text12 {
+              font-size: 1.15rem;
+            }
+            .pricing-text14 {
+              font-weight: 700;
+            }
+            .pricing-text15 {
+              font-size: 4rem;
+            }
+            .pricing-text16 {
+              font-size: 1.15rem;
+            }
+            .pricing-text17 {
+              color: var(--dl-color-gray-500);
+              font-size: 0.75rem;
+            }
+            .pricing-button1 {
+              color: var(--dl-color-gray-white);
+              background-color: var(--dl-color-gray-black);
+            }
             .pricing-pricing-card2 {
               max-width: 400px;
               border-radius: var(--dl-radius-radius-radius8);
+            }
+            .pricing-text23 {
+              text-transform: uppercase;
+            }
+            .pricing-text24 {
+              font-size: 1.15rem;
+            }
+            .pricing-text26 {
+              font-weight: 700;
+            }
+            .pricing-text27 {
+              font-size: 4rem;
+              font-weight: 700;
+            }
+            .pricing-text28 {
+              font-size: 1.15rem;
+              font-style: normal;
+              font-weight: 300;
+            }
+            .pricing-text29 {
+              color: var(--dl-color-gray-500);
+            }
+            .pricing-button2 {
+              color: var(--dl-color-gray-white);
+              background-color: var(--dl-color-gray-black);
+            }
+            .pricing-text34 {
+              width: var(--dl-size-size-xlarge);
+              font-size: 1.5rem;
+              min-width: var(--dl-size-size-xlarge);
+              font-style: normal;
+              font-weight: 300;
+            }
+            .pricing-text35 {
+              text-transform: uppercase;
+            }
+            .pricing-text36 {
+              font-size: 4rem;
+              font-style: normal;
+              font-weight: 500;
+            }
+            .pricing-text37 {
+              font-size: 1.5rem;
+              font-style: normal;
+              font-weight: 300;
+            }
+            .pricing-text38 {
+              width: var(--dl-size-size-xlarge);
+              font-size: 1.5rem;
+              min-width: var(--dl-size-size-xlarge);
+              font-style: normal;
+              font-weight: 300;
+            }
+            .pricing-text39 {
+              font-size: 1.5rem;
+              font-style: normal;
+              font-weight: 300;
+              text-transform: uppercase;
+            }
+            .pricing-text40 {
+              font-size: 4rem;
+              font-style: normal;
+              font-weight: 500;
+            }
+            .pricing-text41 {
+              font-size: 1.5rem;
+              font-style: normal;
+              font-weight: 300;
+            }
+            .pricing-text42 {
+              width: var(--dl-size-size-xlarge);
+              font-size: 1.5rem;
+              min-width: var(--dl-size-size-xlarge);
+              font-style: normal;
+              font-weight: 300;
+            }
+            .pricing-text43 {
+              text-transform: uppercase;
+            }
+            .pricing-text44 {
+              font-size: 4rem;
+            }
+            .pricing-text45 {
+              font-size: 1.5rem;
+              font-style: normal;
+              font-weight: 300;
             }
           }
           @media (max-width: 991px) {
-            .pricing-pricing-card {
-              width: 100%;
-              padding: var(--dl-space-space-twounits);
-              max-width: 100%;
-              align-items: center;
-            }
-            .pricing-pricing-card1 {
-              width: 100%;
-              max-width: 100%;
-              align-items: center;
-            }
-            .pricing-pricing-card2 {
-              width: 100%;
-              max-width: 100%;
-              align-items: center;
-            }
-            .pricing-text52 {
-              margin-left: var(--dl-space-space-oneandhalfunits);
-              margin-right: var(--dl-space-space-oneandhalfunits);
-            }
-            .pricing-text54 {
-              margin-left: var(--dl-space-space-threeunits);
-              margin-right: var(--dl-space-space-threeunits);
-            }
-            .pricing-button3 {
-              padding-left: var(--dl-space-space-twounits);
-              padding-right: var(--dl-space-space-twounits);
-            }
-            .pricing-text60 {
-              margin-left: var(--dl-space-space-oneandhalfunits);
-              margin-right: var(--dl-space-space-oneandhalfunits);
-            }
-            .pricing-text62 {
-              margin-left: var(--dl-space-space-threeunits);
-              margin-right: var(--dl-space-space-threeunits);
-            }
-            .pricing-button4 {
-              padding-left: var(--dl-space-space-twounits);
-              padding-right: var(--dl-space-space-twounits);
-            }
-            .pricing-text68 {
-              margin-top: var(--dl-space-space-halfunit);
-              margin-left: var(--dl-space-space-halfunit);
-              margin-right: var(--dl-space-space-halfunit);
-              margin-bottom: var(--dl-space-space-halfunit);
-            }
-            .pricing-text70 {
-              margin-left: var(--dl-space-space-threeunits);
-              margin-right: var(--dl-space-space-threeunits);
-            }
-            .pricing-button5 {
-              padding-left: var(--dl-space-space-twounits);
-              padding-right: var(--dl-space-space-twounits);
-            }
-          }
-          @media (max-width: 767px) {
             .pricing-container01 {
               flex-flow: column;
               padding-left: var(--dl-space-space-twounits);
@@ -715,6 +770,34 @@ const Pricing = (props) => {
               margin-right: 0px;
               margin-bottom: var(--dl-space-space-twounits);
             }
+            .pricing-text36 {
+              margin-left: var(--dl-space-space-oneandhalfunits);
+              margin-right: var(--dl-space-space-oneandhalfunits);
+            }
+            .pricing-button3 {
+              padding-left: var(--dl-space-space-twounits);
+              padding-right: var(--dl-space-space-twounits);
+            }
+            .pricing-text40 {
+              margin-left: var(--dl-space-space-oneandhalfunits);
+              margin-right: var(--dl-space-space-oneandhalfunits);
+            }
+            .pricing-button4 {
+              padding-left: var(--dl-space-space-twounits);
+              padding-right: var(--dl-space-space-twounits);
+            }
+            .pricing-text44 {
+              margin-top: var(--dl-space-space-halfunit);
+              margin-left: var(--dl-space-space-halfunit);
+              margin-right: var(--dl-space-space-halfunit);
+              margin-bottom: var(--dl-space-space-halfunit);
+            }
+            .pricing-button5 {
+              padding-left: var(--dl-space-space-twounits);
+              padding-right: var(--dl-space-space-twounits);
+            }
+          }
+          @media (max-width: 767px) {
             .pricing-pricing1 {
               padding-left: var(--dl-space-space-twounits);
               padding-right: var(--dl-space-space-twounits);
@@ -723,34 +806,22 @@ const Pricing = (props) => {
               width: 100%;
               flex-direction: column;
             }
-            .pricing-text54 {
-              margin-top: var(--dl-space-space-twounits);
+            .pricing-text34 {
               text-align: center;
-              margin-left: var(--dl-space-space-twounits);
-              margin-right: var(--dl-space-space-twounits);
-              margin-bottom: var(--dl-space-space-twounits);
             }
             .pricing-card1 {
               width: 100%;
               flex-direction: column;
             }
-            .pricing-text62 {
-              margin-top: var(--dl-space-space-twounits);
+            .pricing-text38 {
               text-align: center;
-              margin-left: var(--dl-space-space-twounits);
-              margin-right: var(--dl-space-space-twounits);
-              margin-bottom: var(--dl-space-space-twounits);
             }
             .pricing-card2 {
               width: 100%;
               flex-direction: column;
             }
-            .pricing-text70 {
-              margin-top: var(--dl-space-space-twounits);
+            .pricing-text42 {
               text-align: center;
-              margin-left: var(--dl-space-space-twounits);
-              margin-right: var(--dl-space-space-twounits);
-              margin-bottom: var(--dl-space-space-twounits);
             }
           }
           @media (max-width: 479px) {
@@ -768,18 +839,6 @@ const Pricing = (props) => {
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
               padding-bottom: var(--dl-space-space-twounits);
-            }
-            .pricing-text54 {
-              margin-left: var(--dl-space-space-unit);
-              margin-right: var(--dl-space-space-unit);
-            }
-            .pricing-text62 {
-              margin-left: var(--dl-space-space-unit);
-              margin-right: var(--dl-space-space-unit);
-            }
-            .pricing-text70 {
-              margin-left: var(--dl-space-space-unit);
-              margin-right: var(--dl-space-space-unit);
             }
           }
         `}

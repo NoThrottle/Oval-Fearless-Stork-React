@@ -561,6 +561,15 @@ const Home = (props) => {
             background-color: var(--dl-color-gray-black);
           }
           @media (max-width: 1600px) {
+            .home-hero {
+              background-image: linear-gradient(
+                  90deg,
+                  rgba(250, 242, 254, 1) 0%,
+                  rgba(243, 243, 255, 0.95) 39%,
+                  rgba(240, 253, 255, 0.7) 100%
+                ),
+                url('https://i.imgur.com/TnRPUg7.png');
+            }
             .home-container7 {
               height: auto;
             }
